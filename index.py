@@ -123,7 +123,7 @@ i = 0
 
 palabra = input("introduce una palabra : ")
 
-palabra = palabra.upper()
+palabra = palabra.strip().upper()
 
 print(f'la palabra es {palabra}')
 
