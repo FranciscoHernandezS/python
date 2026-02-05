@@ -121,32 +121,49 @@ i = 0
 
 ##############################################################
 
-palabra = input("introduce una palabra : ")
-resultado = ""
-palabra = palabra.strip().upper()
+# palabra = input("introduce una palabra : ")
+# resultado = ""
+# palabra = palabra.strip().upper()
 
-# print(f'la palabra es {palabra}')
+# # print(f'la palabra es {palabra}')
 
-for p in palabra :
-    if  p == "A" :
-        continue
-    elif p == "E" :
-        continue
-    elif p == "I" :
-        continue
-    elif p == "O" :
-        continue
-    elif p == "U" :
-        continue
-    elif p == " ":
-        p = "*"
+# for p in palabra :
+#     if  p == "A" :
+#         continue
+#     elif p == "E" :
+#         continue
+#     elif p == "I" :
+#         continue
+#     elif p == "O" :
+#         continue
+#     elif p == "U" :
+#         continue
+#     elif p == " ":
+#         p = "*"
     
     
-    resultado += p
+#     resultado += p
     
    
 
-print(f'\n\nla palabra sin vocales es : {resultado}', end="")
+# print(f'\n\nla palabra sin vocales es : {resultado}', end="")
+
+
+##############################################################################
+
+i = 6
+#ahora aplicaremos la sentencia while
+while i < 5 :
+    print(f'el valor de i es : {i}')
+    i += 1
+#ahora imprimiremos
+print(f' i por fuera es : {i}')
+
+for r in range(5) :
+    print(f'dentro del loop : {r}')
+
+else :
+    print(f'else  : {r}')
 
 
 
