@@ -119,7 +119,13 @@ i = 0
 
 
 
+##############################################################
 
+palabra = input("introduce una palabra : ")
+
+palabra = palabra.upper()
+
+print(f'la palabra es {palabra}')
 
 
 
