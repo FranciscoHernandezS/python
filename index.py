@@ -122,10 +122,28 @@ i = 0
 ##############################################################
 
 palabra = input("introduce una palabra : ")
-
+resultado = ""
 palabra = palabra.strip().upper()
 
-print(f'la palabra es {palabra}')
+# print(f'la palabra es {palabra}')
+
+for p in palabra :
+    if  p == "A" :
+        continue
+    elif p == "E" :
+        continue
+    elif p == "I" :
+        continue
+    elif p == "O" :
+        continue
+    elif p == "U" :
+        continue
+    elif p == " ":
+        p = "*"
+    resultado += p
+    
+
+print(f'\n\nla palabra sin vocales es : {resultado}', end="")
 
 
 
