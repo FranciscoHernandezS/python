@@ -140,8 +140,11 @@ for p in palabra :
         continue
     elif p == " ":
         p = "*"
+    
+    
     resultado += p
     
+   
 
 print(f'\n\nla palabra sin vocales es : {resultado}', end="")
 
