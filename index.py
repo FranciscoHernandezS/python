@@ -1,3 +1,162 @@
+# amadeo = 0
+
+# while amadeo < 10 :
+#     print(amadeo , end=" * ")
+#     amadeo += 1
+
+# print("\n\n")
+
+# for amadeo in range (40,14,-5) :
+#     print(amadeo , end=" - ")
+
+
+# for i in range (2, 8, 3) :
+#     print(i)
+
+
+# import time
+
+# for segundo in range(15):
+#     print(f'{segundo} ')
+#     time.sleep(segundo/5)
+# print("\n\ngame over")
+
+
+# print("la instruccion break: ")
+
+# for b in range (1,6) :
+#     if b == 3 :
+#         break
+#     print(f'Dentro del bucle break: {b}')
+
+
+# print('\n ejemplo con continue : ')
+# yoma = 3, 5
+
+# for c in range(1,15):
+#     if  (5 <= c < 8) or c==11 :
+#         continue
+#     print(f"dentro del continue : {c}")
+
+# print('\n\nfuera del bucle')
+
+# numero_mayor = -99999999
+
+# contador = 0
+
+# while True :
+#     numero = int(input('Introduce un numero o escribe -1 para salir : '))
+#     if numero == -1 :
+#         break
+#     contador += 1
+#     if numero > numero_mayor :
+#         numero_mayor = numero
+
+# if contador != 0:
+#     print(f'el numero mas grande es : {numero_mayor}')
+# else:
+#     print('no has ingresado ningun numero')
+
+
+# while True :
+#     palabra = input('estas en un bucle infinito !! \n Ingresa la palabra secreta :')
+#     if palabra == 'chupacabra' :
+#         break
+
+# print(f'\n\nhas salido del bucle : {palabra}')
+
+
+# palabra = input("Introduzca la palabra : ")
+# palabra = palabra.upper()
+# nuevo = ''
+
+
+# for letra in palabra : 
+#     if letra == 'A':
+#         continue
+#     elif letra == 'E':
+#         continue
+#     elif letra == 'I' :
+#         continue
+#     elif letra == 'O' :
+#         continue
+#     elif letra == 'U' :
+#         continue
+    
+#     else:
+#         nuevo += letra
+#         print(letra)
+
+# print(f'\n\n {nuevo}')    
+
+# bloques = int(input("ingrese la cantidad de bloques : "))
+
+# altura = 0
+# en_capa = 1
+
+# while en_capa <= bloques :
+#     altura += 1
+#     bloques -= en_capa
+#     en_capa += 1
+
+# print(f'la altura de la piramide es : {altura}')
+
+# texto = "pyxpyxpyxpyxpyxpy"
+
+# for letra in texto :
+#     if letra == "x":
+#         continue
+#     print(letra, end="")
+    
+numeros = [10, 5 , 7, 2 , 1]
+
+# print(f'el valor original de la lista es : {numeros}')
+
+# numeros[0] = 111 
+# print(f'\nel valor actual de la lista es : {numeros}')
+
+# numeros[1] = numeros[4]
+# print(f'\nel valor actualizado del numero 2 es : {numeros} ')
+
+print(numeros[0])
+print(f'\n{numeros}')
+
+print(f'\n{len(numeros)}')
+
+del numeros[1]
+
+print(f'\n nueva longitud , despues de borrar : {len(numeros)}')
+
+# print(numeros[4])
+# numeros[4] = 10
+# print(f'\n{numeros[4]}')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # for i in range(100) :
 #     if i % 2 == 1 or i% 5== 0:
 #         print(f'el de valor de i es : {i} ', end=" * ")
@@ -151,26 +310,96 @@ i = 0
 
 ##############################################################################
 
-i = 6
-#ahora aplicaremos la sentencia while
-while i < 5 :
-    print(f'el valor de i es : {i}')
-    i += 1
-#ahora imprimiremos
-print(f' i por fuera es : {i}')
+# i = 6
+# #ahora aplicaremos la sentencia while
+# while i < 5 :
+#     print(f'el valor de i es : {i}')
+#     i += 1
+# #ahora imprimiremos
+# print(f' i por fuera es : {i}')
 
-for r in range(5) :
-    print(f'dentro del loop : {r}')
+# for r in range(5) :
+#     print(f'dentro del loop : {r}')
 
-else :
-    print(f'else  : {r}')
+# else :
+#     print(f'else  : {r}')
+
+# bloques = int(input("introduce la cantidad de bloques : "))
+
+# altura = 0
+# en_capa = 1
+
+# while en_capa <= bloques :
+#     altura += 1
+#     bloques -= en_capa
+#     en_capa +=1
+
+# print(f'la altura de la piramides es : {altura}')
+
+#######################################################
+
+# while True :
+#     print("agarrados en un blucle")
+
+# contador = 5
+# while contador > 2 :
+#     print(contador)
+#     contador -= 1
+
+#######################################################
+# palabra = "Python"
+
+# for letra in palabra :
+#     print(letra, end="*")
 
 
+#################################################
+
+# for i in range (1,10) :
+#     if i % 2 == 0:
+#         print(i)
 
 
+########################################################
+
+# texto = "Estamos trabaJando en el sistema global de IA"
+
+# for letra in texto :
+#     if letra == "J" :
+#         break
+#     print(letra, end="")
+
+#######################################################
+
+# texto = "pyxpyxpyx"
+# for letra in texto :
+#     if letra == "x" :
+#         continue
+#     print(letra, end="")
 
 
+#########################################################
 
+# for i in range (3) :
+#     print(i, end =" ")
+
+# for r in range(6, 1, -3) :
+#     print(r, end=" ")
+
+#########################################################
+
+# for i in range (1, 11) :
+#     if i % 2 == 0 :
+#         print(i)
+
+# x = 1 
+
+# while x < 11:
+        
+#     if x % 2 == 0 :
+#         print(x)
+#     x += 1
+    
 
 
 
