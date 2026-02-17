@@ -1,3 +1,101 @@
+mi_lista = [1, 2, 4 , 4, 1 , 4, 2 , 6 , 2, 9]
+
+nueva_lista = []
+
+for numero in mi_lista :
+    if numero not in nueva_lista:
+        nueva_lista.append(numero)
+
+print(f'la nuevalista con elementos unicos es : {nueva_lista}')
+
+
+
+
+# asertados = [5, 11, 9, 42, 3 , 49]
+# apuestas = [3, 7, 11, 42, 34 , 49]
+
+# hits = 0
+
+# for i in apuestas:
+#     if i in asertados :
+#         hits += 1
+
+# print(f'acertamos {hits} veces')
+
+
+# lista = [1, 2, 3, 4 , 5 , 7 , 7 , 8 , 9 ,10]
+# encontrar = 15
+# encontrado = False
+
+# for i in range(len(lista)):
+#     encontrado = lista[i] == encontrar
+#     if encontrado:
+#         break
+
+# if encontrado:
+#     print(f'elemento encontrado en el indice : {i}')
+
+# else: 
+#     print(f'el valor {encontrar} no esta en la lista')
+
+
+
+
+
+
+# mi_lista = [17, 3, 11 , 5 , 134 , 9, 7, 15, 1345]
+
+# mayor = mi_lista[0]
+# contador = 0
+# for i in mi_lista[1:]:
+#     if i > mayor :
+#         contador += 1
+#         mayor = i
+# print(f'compare {contador} veces, {mayor} es el numero mas grande')
+
+
+
+
+# mi_lista = [17, 3, 11, 5 , 1451 , 9, 7 , 15, 13]
+# mayor = mi_lista[0]
+
+# for i in mi_lista :
+#     if i > mayor :
+#         mayor = i
+
+# print(f'{mayor} es el numero mas alto  de la historia')
+
+
+
+
+# lista = [0, 3, 12, 8, 2]
+
+# print(f' no esta 5 in lista : {5 not in lista}')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # amadeo = 0
 
 # while amadeo < 10 :
@@ -118,14 +216,14 @@ numeros = [10, 5 , 7, 2 , 1]
 # numeros[1] = numeros[4]
 # print(f'\nel valor actualizado del numero 2 es : {numeros} ')
 
-print(numeros[0])
-print(f'\n{numeros}')
+# print(numeros[0])
+# print(f'\n{numeros}')
 
-print(f'\n{len(numeros)}')
+# print(f'\n{len(numeros)}')
 
-del numeros[1]
+# del numeros[1]
 
-print(f'\n nueva longitud , despues de borrar : {len(numeros)}')
+# print(f'\n nueva longitud , despues de borrar : {len(numeros)}')
 
 # print(numeros[4])
 # numeros[4] = 10
