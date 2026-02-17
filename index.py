@@ -1,3 +1,94 @@
+
+
+
+
+
+
+
+# lista_mia = [10, 8, 6 , 4 , 2]
+# del(lista_mia[1:3])
+
+# print(f"mi nueva lista es : {lista_mia}")
+
+# del(lista_mia[:])
+# print(f'ahora vacio {lista_mia} es mi nueva lista')
+
+# # del(lista_mia)
+
+# print(f'la lista ahora es :{lista_mia}')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# lista_1 = [1]
+# lista_2 = lista_1[:]
+# lista_1 [0] =54
+# print(f'la lista 2 es : {lista_2}')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# list1 = [1]
+# list2 = list1
+# list1[0] = 3
+# print(f'esta : {list2} , es la lista 2')
+# list2[0]= 20
+# print(f'lista 1 es : {list1}')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # amadeo = 0
 
 # while amadeo < 10 :
@@ -118,14 +209,14 @@ numeros = [10, 5 , 7, 2 , 1]
 # numeros[1] = numeros[4]
 # print(f'\nel valor actualizado del numero 2 es : {numeros} ')
 
-print(numeros[0])
-print(f'\n{numeros}')
+# print(numeros[0])
+# print(f'\n{numeros}')
 
-print(f'\n{len(numeros)}')
+# print(f'\n{len(numeros)}')
 
-del numeros[1]
+# del numeros[1]
 
-print(f'\n nueva longitud , despues de borrar : {len(numeros)}')
+# print(f'\n nueva longitud , despues de borrar : {len(numeros)}')
 
 # print(numeros[4])
 # numeros[4] = 10
