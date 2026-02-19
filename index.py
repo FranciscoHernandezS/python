@@ -1,3 +1,22 @@
+
+tablero = [["x" for i in range (8)] for i in range (8)]
+
+# f = 1
+# for fila in tablero : 
+#     print(f'fila:{f} {"".join(fila)}')
+#     f += 1
+
+# tablero[0][1] = "A"
+# tablero[7][7] = "T"
+# tablero[0][1] = "C"
+# tablero[5][2] = "C"
+# f = 1
+# for y in tablero :
+#     print(f'fila{f} {" ".join(y)}')
+#     f += 1
+
+
+
 # tablero = []
 
 # for i in range(3):
@@ -14,9 +33,9 @@
 # # print(f'{tablero}')
 
 # w = 1
-for i in tablero :
-    print(f'fila{w}:{"".join(i)}')
-    w += 1
+# for i in tablero :
+#     print(f'fila{w}:{"".join(i)}')
+#     w += 1
 
 
 
