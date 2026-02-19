@@ -1,3 +1,141 @@
+# tablero = []
+
+# for i in range(3):
+#     fila = ["x" for i in range(8)]
+#     tablero.append(fila)
+
+# tablero1 = [["x" for i in range(8)] for i in range(8)]
+
+# m=11
+# for i in tablero1:
+#   print(f'fila:{m} {''.join(i)}')
+#   m += 1
+
+# # print(f'{tablero}')
+
+# w = 1
+for i in tablero :
+    print(f'fila{w}:{"".join(i)}')
+    w += 1
+
+
+
+
+
+
+
+
+# tablero = [["x" for i in range(8)] for i in range (8)] 
+    
+    
+
+# w=1
+# for i in tablero :
+#     print(f'fila{w} : {"".join(i)}')
+#     w += 1
+
+
+# # fila = []
+
+# # for i in range(8) :
+# #     fila.append("x")
+
+# # print(f'Fila 1 : {fila}')
+
+# # fila2 = ["y" for i in range(8)]
+
+# # print(f'Fila 2 : {fila2}')
+
+# cuadrado=[i ** 2 for i in range(2,16,3)]
+
+# # w = 2
+
+# # for i in cuadrado:
+# #     print(f'el valor de {w} ^ 2 es : {i}')
+# #     w += 3
+
+# # print(f'\n{cuadrado}')
+
+# # par = [ p for p in cuadrado if p %2 == 0]
+
+# # print(f'{par}')
+
+
+
+# dos = [3 ** i for i in range(8)]
+
+# x=0
+# tres = [ui for ui in dos if ui %2 == 1 and ui >= 45  ]
+
+# print(f'\nel valor de cuadrado es : {tres}')
+
+# r=0
+# for i in dos :
+#     print(f'el valor de 2 elevado a la {r}  es : {i}')
+#     r += 1
+
+
+
+
+
+# for r in cuadrados:
+#   print(r)
+
+# print(f'el cuadrado es : {r}')
+
+# tablero = [["x" for i in range(8)] for j in range(8)]
+# w=0
+# for fila in tablero :
+#   w +=1
+#   print("".join(f'fila{w}:{fila}'))
+
+
+
+
+# tablero = []
+
+# for r in range(8):
+#     fila = ["x" for i in range(8)]
+#     tablero.append(fila)
+    
+
+# # print(fila)
+# # print(f'\n{tablero}')
+# w=0
+# for fila in tablero:
+#     w += 1
+#     print("".join(f'fila{w} : {fila}'))
+
+
+
+
+# # fila = []
+# # x = "x"
+
+# # for i in range(8) :
+# #     fila.append(f'x{i}')
+
+# # print(f'la fila es {fila}')
+
+# # fila2 = [(f'x{i}') for i in range(8)]
+
+# # print(f'fila2 es {fila2}')
+
+
+# cuadrados = [i ** 2 for i in range(2,8)]
+
+# # print(f'el cuadrado es : {cuadrados}')
+
+
+# dos = [(f'"2 elevado a la {i} : {2 ** i}') for i in range(8,17,1)]
+
+# # print(f'potencia de 2 a partir del 8 hasta el 16 : {dos}')
+
+# impar = [i for i in cuadrados if i %2 == 0]
+
+# print(f'impar es : {impar}')
+
+
 # for i in range(100) :
 #     if i % 2 == 1 or i% 5== 0:
 #         print(f'el de valor de i es : {i} ', end=" * ")
